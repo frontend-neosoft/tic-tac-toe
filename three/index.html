@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="tictactoe">
+
+      <form onsubmit="createGrid(event)" method="post">
+        <label>Grid</label>
+        <input type="number" min="3" id="grid" value="3" />
+        <label>Players</label>
+        <input type="number" min="2" id="players" value="2" />
+        <button type="submit" id="start">Play!</button>
+      </form>
+      <div id="playArea">
+
+      </div>
+
+      <script type="text/javascript" src="js/main.js"></script>
+    </div>
+  </body>
+</html>
